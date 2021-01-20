@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FFFF"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".LoginActivity"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView android:id="@+id/welcomeTxt"
+            android:layout_width="283dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:text="@string/welcomeTxt"
+            android:textSize="39sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:text="Silakan Login  dengan akun anda"
+            android:textSize="15sp" />
+
+        <EditText android:id="@+id/edEmail_NoHP"
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:autofillHints=""
+            android:hint="No.HP/Email"
+            android:paddingLeft="10dp"
+            android:textSize="12sp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:passwordToggleEnabled="true">
+            <EditText android:id="@+id/edPassword"
+                android:layout_width="340dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:inputType="textPassword"
+                android:hint="Password"
+                android:textSize="12sp"
+                android:paddingLeft="10dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView android:id="@+id/forgotPwTxt"
+            android:layout_width="138dp"
+            android:layout_height="29dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="15dp"
+            android:paddingLeft="20dp"
+            android:text="Lupa Password?"
+            android:textColor="@color/green"
+            android:textStyle="bold" />
+
+        <Button android:id="@+id/btnLogin"
+            android:layout_width="340dp"
+            android:layout_height="57dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/green"
+            android:elevation="10dp"
+            android:gravity="center"
+            android:text="Masuk"
+            android:textColor="@color/white"
+            android:textSize="19sp" />
+
+        <TextView android:id="@+id/registerTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Do not have account? Register Here!"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#55b3b1"
+            />
+    </LinearLayout>
+</LinearLayout>

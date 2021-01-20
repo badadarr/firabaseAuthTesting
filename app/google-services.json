@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "422021911644",
+    "firebase_url": "https://applifirebase-f3478-default-rtdb.firebaseio.com",
+    "project_id": "applifirebase-f3478",
+    "storage_bucket": "applifirebase-f3478.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:422021911644:android:aff4a6ea6a3930fa514299",
+        "android_client_info": {
+          "package_name": "com.badadarr.firabaseauthtesting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "422021911644-1249h9ibdvivf4pcu4nbie3htqsrpp6i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwzOP6o4dDvAVU2t8IZgDYuGmyuVNIq_M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "422021911644-1249h9ibdvivf4pcu4nbie3htqsrpp6i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
